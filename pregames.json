@@ -1,1 +1,32 @@
-
+{
+  "breathe": { "pattern": [4,4,4,4], "cycles": 4 },
+  "visualize": [
+    "Premier shift : bon départ, patins actifs, premières touches propres.",
+    "Sans la rondelle : scan + démarquage pour offrir une option rapide.",
+    "Avec la rondelle : tête levée, décision en < 1s (tir/passe/porteur).",
+    "Devant le filet : écran propre, prêt aux rebonds.",
+    "Transition : 3 foulées explosives en repli dès la perte."
+  ],
+  "decisions": [
+    { "s":"2v1, le défenseur ferme la passe.", "o":["Forcer la passe","Tirer au filet","Ralentir"], "a":1, "p":5 },
+    { "s":"Sortie de zone sous pression.", "o":["Passe longue risquée","Petite passe de soutien","Dégagement interdit"], "a":1, "p":5 },
+    { "s":"Coéquipier seul dans l’enclave.", "o":["Garder la rondelle","Passer vite dans l’enclave","Tirer angle fermé"], "a":1, "p":5 },
+    { "s":"Perte de rondelle au centre.", "o":["Repli immédiat","Rester haut","Changer de ligne"], "a":0, "p":5 },
+    { "s":"Bataille le long de la bande.", "o":["Haut du corps passif","Bassin bas, épaules fortes","Regarder seulement le puck"], "a":1, "p":5 },
+    { "s":"Avantage numérique.", "o":["Tirer de partout","Déplacer la rondelle rapidement","Attendre l’adversaire"], "a":1, "p":5 }
+  ],
+  "affirm": [
+    "Je patine avec intention dès mon premier shift.",
+    "Je scanne avant chaque réception.",
+    "Je prends ma décision en moins d’une seconde.",
+    "Je gagne mes batailles à la bande.",
+    "Je protège la zone dangereuse en défense.",
+    "Je communique et j’encourage mes coéquipiers."
+  ],
+  "checklist": [
+    "Équipement complet (protège-dents, casque, lacets).",
+    "Hydratation prête.",
+    "Objectifs du match compris (2 focus).",
+    "Énergie positive : je m’engage à tout donner."
+  ]
+}
